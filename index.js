@@ -6,6 +6,6 @@ xhr.get('https://api.wheretheiss.at/v1/satellites/25544/positions?timestamps=143
 
   var goodData = JSON.parse(data.body)
   console.log(goodData[0].id)
-  document.body.innerHTML = example({ id: 25544 });
+  document.body.innerHTML = example({ id: goodData[0].id });
 })
 
