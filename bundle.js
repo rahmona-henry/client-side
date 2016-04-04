@@ -89,6 +89,6 @@ var trim=require("trim"),forEach=require("for-each"),isArray=function(r){return"
 function extend(){for(var r={},e=0;e<arguments.length;e++){var t=arguments[e];for(var n in t)hasOwnProperty.call(t,n)&&(r[n]=t[n])}return r}module.exports=extend;var hasOwnProperty=Object.prototype.hasOwnProperty;
 
 },{}],30:[function(require,module,exports){
-var HandlebarsCompiler=require("hbsfy/runtime");module.exports=HandlebarsCompiler.template({compiler:[7,">= 4.0.0"],main:function(l,a,e,n,t){var i,u=null!=a?a:{},p=e.helperMissing,r="function",m=l.escapeExpression;return"<h1>Hello "+m((i=null!=(i=e.altitude||(null!=a?a.altitude:a))?i:p,typeof i===r?i.call(u,{name:"altitude",hash:{},data:t}):i))+"!</h1>\n<p>"+m((i=null!=(i=e.id||(null!=a?a.id:a))?i:p,typeof i===r?i.call(u,{name:"id",hash:{},data:t}):i))+"</p>\n<p>"+m((i=null!=(i=e.name||(null!=a?a.name:a))?i:p,typeof i===r?i.call(u,{name:"name",hash:{},data:t}):i))+"</p>\n\n"},useData:!0});
+var HandlebarsCompiler=require("hbsfy/runtime");module.exports=HandlebarsCompiler.template({compiler:[7,">= 4.0.0"],main:function(l,a,e,n,t){var i,u=null!=a?a:{},r=e.helperMissing,h="function",m=l.escapeExpression;return"<h1>Hello "+m((i=null!=(i=e.altitude||(null!=a?a.altitude:a))?i:r,typeof i===h?i.call(u,{name:"altitude",hash:{},data:t}):i))+"!</h1>\n<h2>"+m((i=null!=(i=e.id||(null!=a?a.id:a))?i:r,typeof i===h?i.call(u,{name:"id",hash:{},data:t}):i))+"</h2>\n<h3>"+m((i=null!=(i=e.name||(null!=a?a.name:a))?i:r,typeof i===h?i.call(u,{name:"name",hash:{},data:t}):i))+"</h3>\n\n"},useData:!0});
 
 },{"hbsfy/runtime":21}]},{},[1]);
