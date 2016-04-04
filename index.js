@@ -9,7 +9,7 @@ xhr.get('https://api.wheretheiss.at/v1/satellites/25544/positions?timestamps=143
   console.log(goodData)
   document.body.innerHTML = example({ altitude: goodData[0].altitude });
   document.body.innerHTML = example({ id: goodData[0].id });
-  document.body.innerHTML = example({ name: goodData[0].name });
+  // document.body.innerHTML = example({ name: goodData[0].name });
 })
 
 
